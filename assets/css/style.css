@@ -1,0 +1,751 @@
+/*All*/
+body{
+    background-color: #13323D;
+}
+.btn {
+    color: white;
+    border-color: white;
+}
+
+nav ul li a:hover{
+    border-bottom: solid 3px tomato;
+    margin-bottom: -3px;
+}
+
+/*Navbar*/
+.navbar a{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar .navbar-brand{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.navbar ul{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+/*Jumbotron*/
+
+.jumbotron{
+    background-image: url("../img/hero.png");
+    height: 460px;
+    margin-bottom: 0px;
+}
+
+.row1 .jumbotron .texthero{
+    padding-top: 50px;
+    font-family: 'Merienda', sans-serif;
+    font-size: 36px;
+    color: white;
+}
+
+
+/*Row2*/
+.row2{
+    background-color: #13323D;
+    color: white;
+    height: 650px;
+}
+
+
+.row2 .row {
+    padding-top: 60px;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.row2 .row center{
+    font-size: 26px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+/*Row3*/
+.row3{
+    background-color: #13323D   ;
+}
+
+.row3 .row .col-md-12 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.carousel-item{
+    height: 400px;
+}
+
+.carousel-content1{
+    position: absolute;
+    bottom: 40%;
+    left: 10%;
+    z-index: 20;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+
+.carousel-content2{
+    position: absolute;
+    bottom: 20%;
+    left: 70%;
+    z-index: 20;
+}
+
+/*Row4*/
+.row4{
+    background-image: url("../img/snazzy-image.png");
+    background-attachment: fixed;
+    background-size: cover;
+    height: 550px;
+    
+}
+
+.row4 .row .col-md-6 {
+    padding-top: 50px;
+}
+
+.row4 .row .col-md-6 b{
+    font-size: 26px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.row4 .row .col-md-6 .alamat{
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.socialmedia a{
+        padding-right: 10px;
+        font-size: 50px;
+        padding-top: 50px;
+        color: black!important;
+        text-decoration: none;
+}
+
+/*footer*/
+footer{
+    background-color: #13323D;
+    color: white;
+}
+
+footer .col-md-4{
+    padding-top: 50px;
+    font-family: 'Raleway', sans-serif;
+}
+
+footer .col-md-4 p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+footer .col-md-4 form .form-group{
+    width: 355px;
+    padding-left: 10px;
+    margin-top: -30px;
+}
+
+
+/*------GalleryPage-------*/
+.rowgallery1{
+    background-color: white;
+    padding-bottom: 30px;
+}
+
+.rowgallery1 p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 26px;
+    color: #13323D;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    font-weight: bold;
+}
+
+
+/*------PemesananPage-------*/
+/*Row1*/
+.rowpesan1 .jumbotron{
+    background-image: url("../img/Rectangle 1.png");
+}
+
+.rowpesan1 .card {
+    display: flex;
+    margin: 50px;
+    padding: 20px;
+    opacity: 90%;
+    background-color: #13323D;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    size: 26px!important
+}
+
+.rowpesan1 i{
+    padding: 10px;
+}
+
+.rowpesan1 .btn{
+    margin-top: 30px;
+    width: 100px;
+}
+
+/*Row2*/
+.rowpesan2{
+    background-color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.rowpesan2 .row:last-child{
+    padding-top: 40px;
+}
+
+.rowpesan2 .col-md-12{
+    color: #13323D;
+    font-family: 'Poppins', sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.rowpesan2 .card{
+    border-color: #13323D;
+    box-shadow: 6px 5px 6px 0px rgba(0,0,0,0.75);
+}
+.rowpesan2 .discount{
+    background-color: #13323D;
+    opacity: 80%;
+    position: absolute;
+    top: 0px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    padding: 4px;
+}
+
+.rowpesan2 .harga{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.rowpesan2 .harga a:first-child{
+    font-weight: bold;
+    font-size: 18;
+}
+
+.rowpesan2 .harga a:last-child{
+    text-decoration: line-through;
+    font-weight: lighter;
+    font-size: 11px;
+}
+
+.rowpesan2 p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.rowpesan2 .btn{
+    color: #13323D;
+    border-color: #13323D;
+    width: 210px;
+}
+
+/*------AboutPage-------*/
+/*Row1*/
+.rowabout1{
+    background-color: white;
+}
+
+.rowabout1 .row{
+    padding-top: 60px;   
+}
+
+.rowabout1 .row:last-child{
+    padding-top: 100px;
+}
+
+.rowabout1 .row .col-md-12{
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: #13323D;
+}
+
+.rowabout1 .col-md-6 p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.rowabout1 .container .row .col-md-6 a{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.rowabout1 .container .row .col-md-6 img{
+    width: 100%;
+    max-width: 480px;
+}
+
+/*Row2*/
+.rowabout2 .row{
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+}
+
+.rowabout2 .col-md-6:last-child{
+    color: white;
+    padding-top: 160px;
+}
+
+.rowabout2 .col-md-6 p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    border-bottom: 5px solid white;
+    width: 444px;
+}
+
+.rowabout2 .col-md-6 a{
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+/*Row3*/
+.rowabout3{
+    background-color: white;
+}
+
+.rowabout3 .row{
+    padding-top: 60px;   
+}
+
+
+.rowabout3 .row .col-md-12{
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: #13323D;
+}
+
+.rowabout3 .col-md-6 p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    border-bottom: 5px solid #13323D;
+    width: 444px;
+}
+
+.rowabout3 .container .row .col-md-6 a{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.rowabout3 .container .row .col-md-6 img{
+    padding-left: 90px;
+    width: 100%;
+    max-width: 480px;
+}
+
+/*Row4*/
+.rowabout4 .row{
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+}
+
+.rowabout4 .col-md-6:last-child{
+    color: white;
+    padding-top: 100px;
+}
+
+.rowabout4 .col-md-6 p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    border-bottom: 5px solid white;
+    width: 444px;
+}
+
+.rowabout4 .col-md-6 a{
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    font-size: 18px;
+}
+.rowabout4 .container .row .col-md-6 img{
+    width: 100%;
+    max-width: 480px;
+}
+
+/*Row5*/
+.rowabout5{
+    background-color: white;
+}
+
+.rowabout5 .row p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    padding-top: 40px;
+}
+
+.rowabout5 .row #testimoni{
+    margin-top: 60px;
+}
+
+.rowabout5 .row .col-md-12 a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+.rowabout5 .row .quote{
+    font-family: 'Poppins', sans-serif;
+    font-size: 26px;
+}
+
+#testimoni #quote {
+    font-family: 'Poppins', sans-serif;
+    font-size: 26px;
+} 
+
+/*------OrderDetailPage-------*/
+/*Row1*/
+.roworder1{
+    background-color: white;
+    padding-top: 80px;
+}
+
+.roworder1 .slider{
+    width: auto;
+}
+
+.roworder1 img{
+    display: block;
+    max-width: 100%;
+}
+
+.roworder1 .col-md-8 .judul{
+    font-family: 'Poppins', sans-serif;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.roworder1 .col-md-8 .harga{
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.roworder1 .col-md-8 a{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
+
+.roworder1 .col-md-8 .row .col-md-4 a{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.roworder1 .col-md-8 .row .col-md-4 ul{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+}
+
+/*Row2*/
+
+.mb-0 > a {
+    display: inline-block;
+    width: 100%;
+    
+}
+
+.card{
+    margin-bottom: 3px;
+}
+.card-header {
+    
+    margin: 5px;
+    color: white;
+    text-align: center;
+}
+
+.roworder2{
+    background-color: white;
+    padding-top: 80px;
+}
+
+.roworder2 .card{
+    background-color: #13323D;
+}
+
+.roworder2 .card .card-body{
+    background-color:white;
+}
+
+/*Row3*/
+.roworder3{
+    background-color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.roworder3 .row:last-child{
+    padding-top: 40px;
+}
+
+.roworder3 .col-md-12{
+    color: #13323D;
+    font-family: 'Poppins', sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.roworder3 .card{
+    border-color: #13323D;
+    box-shadow: 6px 5px 6px 0px rgba(0,0,0,0.75);
+}
+.roworder3 .discount{
+    background-color: #13323D;
+    opacity: 80%;
+    position: absolute;
+    top: 0px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    padding: 4px;
+}
+
+.roworder3 .harga{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.roworder3 .harga a:first-child{
+    font-weight: bold;
+    font-size: 18;
+}
+
+.roworder3 .harga a:last-child{
+    text-decoration: line-through;
+    font-weight: lighter;
+    font-size: 11px;
+}
+
+.roworder3 p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.roworder3 .btn{
+    color: #13323D;
+    border-color: #13323D;
+    width: 210px;
+}
+
+
+/*------END-------*/
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+    /*All*/
+.btn {
+    color: white;
+    border-color: white;
+}
+
+nav ul li a:hover{
+    border-bottom: solid 3px tomato;
+    margin-bottom: -3px;
+}
+
+/*Navbar*/
+.navbar a{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar .navbar-brand{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.navbar ul{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+/*Jumbotron*/
+
+.jumbotron{
+    background-image: url("../img/hero.png");
+    background-attachment: fixed;
+    margin-top: -80px;
+    height: 460px;
+    margin-bottom: 0px;
+}
+
+.row1 .jumbotron .texthero{
+    padding-top: 50px;
+    font-family: 'Merienda', sans-serif;
+    font-size: 36px;
+    color: white;
+    opacity: 85%;
+}
+
+
+/*Row2*/
+.row2{
+    background-color: #13323D;
+    color: white;
+    height: 650px;
+}
+
+
+.row2 .row {
+    padding-top: 60px;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.row2 .row center{
+    font-size: 26px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+iframe{
+    width : 800px;
+    height : 315px;
+}
+
+/*Row3*/
+.row3{
+    background-color: #13323D   ;
+}
+
+.row3 .row .col-md-12 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.carousel-content1{
+    position: absolute;
+    bottom: 30%;
+    left: 10%;
+    z-index: 20;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+
+.carousel-content2{
+    position: absolute;
+    bottom: 20%;
+    left: 70%;
+    z-index: 20;
+}
+
+/*Row4*/
+.row4{
+    background-image: url("../img/snazzy-image.png");
+    background-attachment: fixed;
+    background-size: cover;
+    height: 550px;
+}
+
+.row4 .row .col-md-6 {
+    padding-top: 100px;
+}
+
+.row4 .row .col-md-6 b{
+    font-size: 26px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.row4 .row .col-md-6 .alamat{
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    height: 200px; 
+    width: 600px;
+
+    }
+.map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
+
+    .socialmedia a{
+        padding-right: 10px;
+        font-size: 50px;
+        padding-top: 50px;
+        color: black!important;
+        text-decoration: none;
+    }
+/*footer*/
+footer{
+    background-color: #13323D;
+    color: white;
+}
+
+footer .col-md-4{
+    padding-top: 50px;
+    font-family: 'Raleway', sans-serif;
+}
+
+footer .col-md-4 p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+footer .col-md-4 form .form-group{
+    width: 355px;
+    padding-left: 10px;
+    margin-top: -30px;
+}
+ }
